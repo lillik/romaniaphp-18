@@ -12,4 +12,16 @@ Code written for/during the "Test-Driven Applications" workshop at RomaniaPHP 20
 
 This is example code that is not production-ready. It is intended for studying and learning purposes.
 
+#### Generating the autoloader
+
+```
+$ ./tools/phpab -o src/autoload.php src
+```
+
+#### Running the tests
+
+```
+$ ./tools/phpunit.phar
+```
+
 (c) 2018 thePHP.cc. All rights reserved.
